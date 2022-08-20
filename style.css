@@ -137,6 +137,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border:2px solid orange;
+    margin-top: 20px;
   }
   .neler2{
     border: 1px solid red;
@@ -144,9 +146,10 @@
     height: 800px;
     text-align: center;
     margin: 10px;
+    vertical-align: bottom;
   }
   .footer {
-    background-color:burlywood;
+    background-color:#deb887;
     overflow: hidden;
     margin: 0%;
     display: flex;
@@ -154,18 +157,24 @@
     border: 1px solid red;
     justify-content: center;
     position:sticky;
+    height: 50px;
   }
   #bizkimiz{
     border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 25px;
+    background-image: url(./src/background2.svg);
+    background-size: contain;
   }
   .ogretmen{
     border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 25px;
+    background-image: url(./src/background2.svg);
+    background-size: contain;
+    
   }
   .kutu {
     border: 2px solid red;
@@ -194,4 +203,25 @@
     border-radius: 50%;
     border: 5px solid white;
   }
-  
+  #lalune{
+    text-align: center;
+    color: azure;
+    font-size: 75px;
+    background-image: url(./src/background2.svg);
+    background-size: contain;
+  }
+  .anasayfa{
+    border: 2px solid blue;
+    background-image: url(./src/background2.svg);
+    background-size: contain;
+  }
+  .konum{
+    margin-top: 20px;
+    border: 2px solid blue;
+    align-items: center;
+    display: flex;
+  }
+  .mapouter{
+    width: auto;
+    border: 5px solid paleturquoise;
+  }
