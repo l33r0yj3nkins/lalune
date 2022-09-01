@@ -107,6 +107,35 @@
             <p>Açıklama</p>
         </div>
     </div>
+    <div class="booking">
+        
+
+        <div class="appointy">
+            <iframe id="appointy-iframe" class="no-border" src="https://booking.appointy.com/lalunekids?isgadget=1&autoheight=1"  scrolling="no" width="50%" frameBorder="0"   ></iframe>
+                <script>
+                (function() {
+                    const ifrm = document.getElementById("appointy-iframe");
+                    window.addEventListener("message", function (e) {
+                    const d = e.data || {};
+                    if (d.type === "height"){
+                        ifrm.style.height = d.data + "px";
+                    }
+                    if (d.type === "scroll") {
+                        ifrm.scrollIntoView();
+                    }
+                });
+                })();
+                </script>
+        </div>
+        
+
+
+        
+
+
+
+    </div>
+
     <div id="iletisim">
 
         <div class="konum">
@@ -120,6 +149,9 @@
                 </div>
             </div>
         </div>
+    </div>
+
+       
 
 
 
@@ -131,7 +163,7 @@
             </div>
 
         </footer>
-    </div>
+    
 
     
 </body>
