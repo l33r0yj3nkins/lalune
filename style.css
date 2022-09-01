@@ -48,6 +48,7 @@
     border: 1px solid red;
     justify-content: center;
     position:sticky;
+    background-image: url(./src/yaprak.svg);
   }
   
   /* Style the links inside the navigation bar */
@@ -55,6 +56,7 @@
     float: none;
     display: flex;
     background-color: burlywood;
+    border-radius: 20px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -70,8 +72,8 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #ffc680;
+    color: white;
   }
   
   
@@ -224,4 +226,18 @@
   .mapouter{
     width: auto;
     border: 5px solid paleturquoise;
+  }
+  .booking{
+
+    border: 1px solid blue;
+    width: auto;
+    height: 150%;
+    align-items: center;
+    display: flexbox;
+    
+  }
+  .appointy{
+
+    border: 1px solid red;
+
   }
