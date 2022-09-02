@@ -1,6 +1,6 @@
 *{
     font-family: Helvetica;
-    background-color: blanchedalmond;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
     
@@ -40,15 +40,16 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color:burlywood;
+    background-color:#ffff;
+    position:sticky;
     overflow: hidden;
     margin: 0%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
+    
     justify-content: center;
-    position:sticky;
-    background-image: url(./src/yaprak.svg);
+    
+    
   }
   
   /* Style the links inside the navigation bar */
@@ -56,14 +57,14 @@
     float: none;
     display: flex;
     background-color: burlywood;
-    border-radius: 20px;
+    border-radius: 40px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
     margin: 10px;
-    border: 1px solid red;
+    
     
     width: fit-content;
     
@@ -72,8 +73,9 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ffc680;
+    background-color: #a4c3b2;
     color: white;
+    transition: 0.5s;
   }
   
   
@@ -88,29 +90,31 @@
 
 
   }
-  .yazi img{
+  .yazi1{
+    
+    align-items: center;
+    text-align: center;
+    
+    background-color: none;
+    color: #a4c3b2;
+    text-transform: capitalize;
+    border: 1px solid red;
+    font-size: 70px;
+    width: 100%;
+    height: auto;
+    
 
-    opacity: 0.3;
+  }
+  .background{
+
+    opacity: 0.8;
     margin: 0;
     padding: 0%;
   }
 
   
 
-  .yazi1{
-    position: absolute;
-    top: 300px;
-    left: 200px;
-    background-color: none;
-    color: white;
-    text-transform: capitalize;
-    opacity: 200%;
-    font-size: 70px;
-    width: 750px;
-    height: auto;
-    
-
-  }
+  
   .yazi2{
     position: absolute;
     top: 370px;;
@@ -119,19 +123,21 @@
     
   }
   .logo{
-    width: 550px;
-    height: auto;
-    background-color: none;
+    
+    
+    
     align-items: center;
-    left: 200px;
-    border: 2px solid red;
-    margin-left: 33%;
+    background-image: url(./src/inceyaprak.svg);
+    
+    display: flex;
+    justify-content: center;
     padding: 0%;
     object-fit: fill;
     
   }
   .logo img{
     margin: 0%;
+    background-image: url(./src/inceyaprak.svg);
   }
   
   
@@ -139,38 +145,46 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border:2px solid orange;
-    margin-top: 20px;
+    background-image: url(./src/inceyaprak.svg);
+    margin-top: 5px;
   }
   .neler2{
-    border: 1px solid red;
-    width: 400px;
-    height: 800px;
+    border: 5px solid;
+    border-image: linear-gradient(#a4c3b2,#f6b73c, #a4c3b2) 30;
     text-align: center;
-    margin: 10px;
-    vertical-align: bottom;
+    margin: 40px;
+    border-radius: 0px;
+    padding: 25px;
+    height: 500px;
+    width: 400px;
+  }
+  .neler2:hover{
+    border-image: linear-gradient(#f6b73c, #a4c3b2,#f6b73c) 30;
+    transition: 0.5s;
+
   }
   .footer {
-    background-color:#deb887;
+    background-image: url(./src/yaprak.svg);
     overflow: hidden;
     margin: 0%;
-    display: flex;
-    flex-wrap: wrap;
+    display: flexbox;
+    
     border: 1px solid red;
     justify-content: center;
-    position:sticky;
+    
     height: 50px;
+    margin-top: 10px;
   }
   #bizkimiz{
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     padding: 25px;
-    background-image: url(./src/background2.svg);
+    background-image: url(./src/inceyaprak.svg);
     background-size: contain;
   }
   .ogretmen{
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     padding: 25px;
@@ -179,42 +193,37 @@
     
   }
   .kutu {
-    border: 2px solid red;
+    border: 5px solid;
+    border-image: linear-gradient(#a4c3b2,#f6b73c, #a4c3b2) 30;
     text-align: center;
     margin: 20px;
-    border-radius: 10px;
-    padding: 1px;
+    border-radius: 0px;
+    padding: 25px;
+    height: 500px;
+  
 
     
   }
+  .kutu:hover{
+    border-image: linear-gradient(#f6b73c, #a4c3b2,#f6b73c) 30;
+    transition: 0.5s;
+  }
   .kutu img{
-    filter: grayscale();
+    
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
   }
-  .kutu2{
-    border: 2px solid red;
-    text-align: center;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 1px;
-
-  }
-  .kutu2 img{
-    filter: grayscale();
-    border-radius: 50%;
-    border: 5px solid white;
-  }
+  
   #lalune{
     text-align: center;
     color: azure;
     font-size: 75px;
-    background-image: url(./src/background2.svg);
+    
     background-size: contain;
   }
   .anasayfa{
-    border: 2px solid blue;
-    background-image: url(./src/background2.svg);
+    
+    background-color: #ffff;
     background-size: contain;
   }
   .konum{
@@ -224,7 +233,7 @@
     display: flex;
   }
   .mapouter{
-    width: auto;
+    width: 500px !important;
     border: 5px solid paleturquoise;
   }
   .booking{
@@ -240,4 +249,68 @@
 
     border: 1px solid red;
 
+  }
+  .contain{
+    border: 1px solid blue;
+    display: flexbox;
+  }
+  .footer p{
+
+    background: none;
+    text-align: center;
+    
+  }
+  .iletisimyazi{
+    border: 1px solid white;
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 20px 20px 50px grey;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    
+  }
+  .iletisimyazi p{
+    vertical-align:text-bottom;
+    background: none;
+    margin-top:20px;
+    margin-left: 25px;
+    border: 1px solid red;
+    box-shadow: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    
+  }
+  #iletisim{
+    display: flex;
+    border: 5px solid white;
+    padding: 50px;
+  }
+  .map{
+    border: 1px solid white;
+    box-shadow: 20px 20px 50px grey;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .öz{
+    border: 5px solid whitesmoke;
+    font-size: 20px;
+    width: auto;
+    border-radius: 50px;
+    background:#a4c3b2;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+  }
+  .öz:hover{
+    background:#f6b73c;
+    transition: 0.5s;
+    transition-duration: 1s;
+    color: black;
+    border: 5px solid #a4c3b2;
   }
