@@ -192,6 +192,7 @@
     padding: 25px;
     background-image: url(./src/inceyaprak.svg);
     background-size: contain;
+    flex-wrap: wrap;
   }
   .ogretmen{
     
@@ -304,6 +305,7 @@
     border: 5px solid white;
     padding: 50px;
     background-image: url(./src/inceyaprak.svg);
+    flex-wrap: wrap;
   }
   .map{
     border: 1px solid white;
