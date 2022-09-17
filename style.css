@@ -145,16 +145,35 @@
     display: flex;
     width: 100%;
     border: 1px solid red;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    padding:10px;
   }
   .background .h1{
-    background-image: url(./src/);
+    background-image: url(./src/hayvan1.svg);
+    height:600px;
+    width: 400px;
+    background-size: cover;
+    display: flex;
+    
+    background-size:cover; 
+  
   }
 
-  
+  .background .h2{
+    background-image: url(./src/hayvan2.svg);
+    height:600px;
+    width: 400px;
+    background-size: cover;
+    
+  }
 
-  
+  .background .h3{
+    background-image: url(./src/hayvan3.svg);
+    height:600px;
+    width: 400px;
+    background-size: cover;
+    
+  }
   
   .logo{
     
