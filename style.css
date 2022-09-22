@@ -1,6 +1,6 @@
 *{
-    font-family: Helvetica;
-    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D2DAFF;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -41,7 +41,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color:antiquewhite;
+    background-color:D2DAFF;
     position:sticky;
     overflow: hidden;
     margin: 0%;
@@ -61,10 +61,10 @@
   {
     position: relative;
     padding: 20px 40px;
-    background: #058d9e;
+    background: #EEE3CB;
     color: #fff;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     letter-spacing: 4px;
     transform-style: preserve-3d;
@@ -143,7 +143,7 @@
     
     margin: 25px;
     display: flex;
-    width: 100%;
+    
     border: 1px solid red;
     justify-content: space-around;
     padding:10px;
@@ -299,20 +299,10 @@
     
   }
   
-  #lalune{
-    text-align: center;
-    color: ;
-    font-size: 12px;
-    
-    background-size: contain;
-  }
   
-  }
-  .anasayfa{
-    
-    background-color: #ffff;
-    background-size: contain;
-  }
+  
+  
+ 
   .konum{
     margin-top: 20px;
     border: 2px solid blue;
@@ -388,6 +378,7 @@
     box-shadow: 20px 20px 50px grey;
     padding: 5px;
     border-radius: 20px;
+    margin:40px;
   }
   .öz{
     border: 5px solid whitesmoke;
@@ -414,4 +405,54 @@
   }
   .h3{
     border: 1px solid red;
+  }
+  .anasayfa
+  {
+    border:1px solid red;
+
+  }
+  .kazanımlar
+  {
+    border:1px solid red;
+    display: flex;
+
+  }
+  #kazanımlartext
+  {
+    border: 1px solid red;
+    width: 100%;
+  }
+  #kazanimlaryazi{
+    margin: 20px;
+  }
+  .nevar
+  {
+    border:1px solid red;
+    display: flex;
+
+  }
+  .neden
+  {
+    border:1px solid red;
+
+  }
+  .rol
+  {
+    border:1px solid red;
+
+  }
+  .ilerleme
+  {
+    border:1px solid red;
+
+  }
+  .hijyen
+  {
+    border:1px solid red;
+
+  }
+  #icon
+  {
+    width: 200px;
+    border:1px solid blue;
   }
