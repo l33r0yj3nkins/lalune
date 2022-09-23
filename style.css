@@ -187,6 +187,7 @@
   .logo img{
     margin: 0%;
     background-image: url(./src/inceyaprak.svg);
+    width: 100%;
   }
   
   
@@ -472,71 +473,6 @@
     flex-wrap: nowrap;
     
   }
-  @media (max-width: 1000px) {
-    #bizkimiz {
-      flex-wrap: wrap;
-    }
-    .kutu{
-      width: 100%;
-    }
-    #iletisim{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    #icon
-  {
-    
-    margin:20px;
-    width: 15%;
-    
-  }
-  #icons
-  {
-    width: 15%;
-    
-    margin-left: 100px;
-    margin:20px;
-    
-  }
-  }
-  @media (min-width: 800px) {
-    #icon
-  {
-    
-    
-    margin:20px;
-    width: 15%;
-    
-  }
-  #icons
-  {
-    width: 15%;
-    
-    margin-left: 100px;
-    margin:20px;
-    
-  }
-  .kutu{
-    min-width: 350px;
-    max-width: 500px;
-    
-  }
-  #bizkimiz {
-    justify-content: space-around;
-    
-  }
-  #iletisim{
-    justify-content: space-around;
-  }
-  
-}
-    
-    
-  
-  #bizkimiz {
-    justify-content: space-around;
-    
-  }
   
   #myBtn {
     display: none; /* Hidden by default */
@@ -705,9 +641,88 @@
       
       
     }
+    #icon
+  {
+    visibility: hidden;
+    margin:20px;
+    width: 15%;
     
   }
-   
+  #icons
+  {
+    width: 15%;
+    visibility: hidden;
+    margin-left: 100px;
+    margin:20px;
+    
+  }
+  .yazi1{
+    font-size: 20px;
+    margin: 20px;
+  }
+  #kazanimlartext{
+    font-size: 15px;
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  #bizkimiz {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  #iletisim{
+    justify-content: space-around;
+  }
+  .kazanımlar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .nevar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .neden{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .rol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  .hijyen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+   .ilerleme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }
     
     
     
