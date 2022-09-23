@@ -539,26 +539,7 @@
    background-size: cover;
  }
   
-  #myBtn2:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
-  #myBtn3 {
-     /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 10px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: antiquewhite; /* Set a background color */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    opacity: 0%;
-    
-  }
+  
   
   
   #nevartext{
@@ -662,7 +643,7 @@
   }
   #kazanimlartext{
     font-size: 15px;
-    
+    left: 20%;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
@@ -723,6 +704,84 @@
     align-items: center;
     align-content: center;
    }
+   #kutu{
     
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
     
+    position: relative;
+    float: left;
+    margin: auto;
     
+
+}
+#myBtna {
+  /* Hidden by default */
+ position: fixed; /* Fixed/sticky position */
+ bottom: 10px; /* Place the button at the bottom of the page */
+ left: 60%; /* Place the button 30px from the right */
+ z-index:99; /* Make sure it does not overlap */
+ border: none; /* Remove borders */
+ outline: none; /* Remove outline */
+ background-color: black; /* Set a background color */
+ color: black; /* Text color */
+ cursor: pointer; /* Add a mouse pointer on hover */
+ padding: 15px; /* Some padding */
+ border-radius: 10px; /* Rounded corners */
+ font-size: 18px; /* Increase font size */
+ opacity: 60%;
+ background-image: url(./src/phone.svg);
+ width: 60px;
+ height: 60px;
+ background-size: cover;
+}
+#myBtnl {
+ /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 10px; /* Place the button at the bottom of the page */
+left: 35%; /* Place the button 30px from the right */
+z-index:99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: none; /* Set a background color */
+background: none;
+color: black; /* Text color */
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 15px; /* Some padding */
+border-radius: 10px; /* Rounded corners */
+font-size: 18px; /* Increase font size */
+opacity: 60%;
+background-image: url(./src/location.svg);
+width: 60px;
+height: 60px;
+background-size: cover;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  left: 10%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+   /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  opacity: 60%;
+  background-image: url(./src/up.svg);
+  width: 60px;
+  height: 60px;
+}
+#iletisim{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  }
