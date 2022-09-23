@@ -186,8 +186,9 @@
   }
   .logo img{
     margin: 0%;
-    background-image: url(./src/inceyaprak.svg);
+    background-image: url(./src/denemeback.svg);
     width: 100%;
+    background-size: cover;
   }
   
   
@@ -371,9 +372,10 @@
     display: flex;
     border: 5px solid white;
     padding: 50px;
-    background-image: url(./src/inceyaprak.svg);
+    background-image: url(./src/denemeback.svg);
     flex-wrap: nowrap;
     align-items: baseline;
+    background-size: cover;
   }
   .map{
     border: 1px solid white;
@@ -784,4 +786,12 @@ background-size: cover;
   flex-wrap: wrap;
 }
 
+  }
+  @media screen and (min-width: 800px) {
+    #iletisim
+    {
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
