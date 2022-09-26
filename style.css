@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     
     
+    
 }
 
 #kutu{
@@ -398,7 +399,7 @@
     background:#f6b73c;
     transition: 0.5s;
     transition-duration: 1s;
-    color: black;
+    color: whitesmoke;
     border: 5px solid #a4c3b2;
   }
  
