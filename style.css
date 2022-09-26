@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #F9F9F9;
     margin: 0;
     padding: 0;
@@ -214,6 +214,23 @@
     border-image: linear-gradient(#f6b73c, #a4c3b2,#f6b73c) 30;
     transition: 0.5s;
 
+  }
+  .nevarkitext li{
+    list-style-type: none !important;
+    text-align: right !important;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    
+  
+  }
+  .nevarkitext{
+    text-size-adjust: 100%;
+  }
+  .nevar p{
+    text-align: left;
   }
   .footer {
     background-image: url(./src/yaprak.svg);
@@ -548,8 +565,7 @@
   #nevartext{
     
     width: 80%;
-    display: flex;
-    justify-content: center;
+    
   }
   .nevarul{
     text-align: center;
@@ -586,7 +602,7 @@
     
     list-style-type: none;
     text-align: center;
-    font-size: larger;
+    
   }
   #tarif{
     background: none;
@@ -796,3 +812,4 @@ background-size: cover;
       flex-wrap: wrap;
     }
   }
+  
